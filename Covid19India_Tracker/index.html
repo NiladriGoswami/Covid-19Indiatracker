@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--sweetAlert CDN Link-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <title>::Covid-19 India Tracker::</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Covid-19 cases in <span id="country">India</span></h1>
+      <table id="Total">
+        <thead>
+          <th id="headingTotal" colspan="3"><u>Total</u></th>
+          <th></th>
+          <th></th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Active cases</td>
+            <td>:</td>
+            <td id="active"></td>
+          </tr>
+          <tr>
+            <td>Total cases</td>
+            <td>:</td>
+            <td id="cases"></td>
+          </tr>
+          <tr>
+            <td>Total Deaths</td>
+            <td>:</td>
+            <td id="death"></td>
+          </tr>
+          <tr>
+            <td>Recovered cases</td>
+            <td>:</td>
+            <td id="recovered"></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <!--<p id="para2">Search data for your State :</p>-->
+          <div class="search">
+            <input type="text" id="input" placeholder="Enter your State Name" required/>
+            <button type="button" id="search-btn" class="btn btn-info"  onclick='displayTable();'>Search</button>
+        </div>
+        <br>
+        <br>
+        <table id="displayTable" class="center" style="display: none;" >
+          <thead>
+            <th id="state" colspan="3"></th>
+            <th></th>
+            <th></th>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="para">Active cases</td>
+              <td id="para">:</td>
+              <td id="Active_cases"></td>
+            </tr>
+            <tr>
+              <td id="para">Confirm cases</td>
+              <td id="para">:</td>
+              <td id="Confirm_cases"></td>
+            </tr>
+            <tr>
+              <td id="para">Total Deaths</td>
+              <td id="para">:</td>
+              <td id="Total_Deaths"></td>
+            </tr>
+            <tr>
+              <td id="para">Recovered cases</td>
+              <td id="para">:</td>
+              <td id="Recovered_cases"></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <!--footer-->
+<footer id="footer">
+  <p >© 2020 Covid-19 India Tracker | Designed by<a href="index.html" style="text-decoration: none;color: white"> Niladri Goswami</a></p>
+ </footer>
+ <!--End of Footer-->
+</body>
+<script src="app.js"></script>
+
+
+</html>
