@@ -8,5 +8,8 @@
 * CSS3
 * Javascript es5,es6,es7(fractional)
 
+#### Author:
+* Niladri Goswami (https://www.linkedin.com/in/niladri-goswami-0972a2118)
+
 #### Site Link:
 https://niladriz-covid19-tracker.netlify.app/
