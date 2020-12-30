@@ -8,6 +8,10 @@
 * CSS3
 * Javascript es5,es6,es7(fractional)
 
+#### API used:
+* https://www.covid19india.org/
+* API link: https://api.covid19india.org/data.json
+
 #### Author:
 * Niladri Goswami (https://www.linkedin.com/in/niladri-goswami-0972a2118)
 
