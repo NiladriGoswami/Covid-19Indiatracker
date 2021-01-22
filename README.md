@@ -23,7 +23,7 @@
 
 * Shows dialog box message if valid state not mentioned when searched:
 
-
+![covid-tracker-alert](https://user-images.githubusercontent.com/48457036/105502167-299a9a80-5ceb-11eb-8f1e-1e1748117180.png)
 
 #### API used:
 * Website: https://www.covid19india.org
