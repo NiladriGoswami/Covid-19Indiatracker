@@ -21,6 +21,10 @@
 
 ![covid-tracker-responsive](https://user-images.githubusercontent.com/48457036/105501029-b3496880-5ce9-11eb-93df-6fc8dc66dfca.png)
 
+* Shows dialog box message if valid state not mentioned when searched:
+
+
+
 #### API used:
 * Website: https://www.covid19india.org
 * API link: https://api.covid19india.org/data.json
