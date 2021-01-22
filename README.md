@@ -9,15 +9,17 @@
 * Javascript es5,es6,es7(fractional)
 
 #### Dashboard Image:
-* Initial dashboard image.
+* Initial dashboard image:
+
 ![covid-tracker-1](https://user-images.githubusercontent.com/48457036/105500412-e5a69600-5ce8-11eb-8961-bfd96f44e547.png)
 
-* Dashboard after searching info of any state.
+* Dashboard after searching info of any state:
+
 ![covid-tracker-2](https://user-images.githubusercontent.com/48457036/105500800-69f91900-5ce9-11eb-98f9-23606e376b94.png)
 
-* Responsive dashboard image.
+* Responsive dashboard image:
 
-
+![covid-tracker-responsive](https://user-images.githubusercontent.com/48457036/105501029-b3496880-5ce9-11eb-93df-6fc8dc66dfca.png)
 
 #### API used:
 * https://www.covid19india.org/
