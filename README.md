@@ -29,4 +29,4 @@
 * Niladri Goswami (https://www.linkedin.com/in/niladri-goswami-0972a2118)
 
 #### Site Link:
-https://niladriz-covid19-tracker.netlify.app/
+https://niladriz-covid19-tracker.netlify.app
