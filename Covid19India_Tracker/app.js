@@ -1,5 +1,5 @@
 /**Api link assigning in variable 'api' */
-let api = "https://api.covid19india.org/data.json";
+let api = "https://data.covid19india.org/data.json";
 
 /**Grabing necessary html elements by ID attribute */
 let searchButton = document.getElementById('search-btn');
